@@ -17,22 +17,22 @@ public class Main {
 
         //b. Nagyobb mint 512 és a program kimenete 1030.
 
-        int i2 = 513;
-        int i2Xor512 = 1030;
+        int i2 = 1542;
+        int i2Xor512 = i2 ^ 512;
 
         if (i2Xor512 == 1030) {
-            System.out.println("513 XOR 512-vel = " + i2Xor512);
+            System.out.println("1542 XOR 512-vel = " + i2Xor512);
         } else {
             System.out.println("Az eredmeny nem egyenlo 1030-al");
         }
 
         //c. Nagyobb mint 512 és a program kimenete 1534.
 
-        int i3 = 1024;
-        int i3Xor512 = i3 | 512;
+        int i3 = 2046;
+        int i3Xor512 = i3 ^ 512;
 
         if (i3Xor512 == 1534) {
-            System.out.println("513 XOR 512-vel = " + i3Xor512);
+            System.out.println("2046 XOR 512-vel = " + i3Xor512);
         } else {
             System.out.println("Az eredmeny nem egyenlo 1534-el");
         }
