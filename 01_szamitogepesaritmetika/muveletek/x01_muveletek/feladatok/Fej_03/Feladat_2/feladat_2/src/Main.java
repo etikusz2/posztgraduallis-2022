@@ -1,9 +1,10 @@
-import java.math.MathContext;
 import java.util.Scanner;
-import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
+        // Kérj be két számot, majd kérd be, hogy számtani vagy mértani középarányost szeretnénk számolni.
+        // Számold és írd ki a kért művelet eredméyét.
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Mondj egy szamot: ");
         double dSzam1 = sc.nextDouble();
