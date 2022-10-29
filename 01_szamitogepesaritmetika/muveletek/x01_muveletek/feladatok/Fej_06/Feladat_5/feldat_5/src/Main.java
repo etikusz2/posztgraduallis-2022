@@ -13,7 +13,8 @@ public class Main {
                 sKarakterlancForditva = sKarakterlanc.charAt(i) + sKarakterlancForditva;
             }
             System.out.println(sKarakterlancForditva);
-            System.out.println("Adjon meg egy karakterlancot: ");
+            sKarakterlancForditva = "";
+            System.out.println("Adjon meg egy masik karakterlancot: ");
             sKarakterlanc = sc.nextLine();
         }
     }
