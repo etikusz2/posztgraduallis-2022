@@ -6,8 +6,9 @@ public class Main {
         //  majd generál egy olyan véletlen karakterláncot, aminek hossza ez a szám.
         //  A karakterei pedig kizárólag kis betűk, nagy betűk, vagy számok. Pl: hossz 7, karakterlánc: aFst5Gw.
 
-        Random r= new Random();
+        Random r = new Random();
         int iVeletlenSzam = r.nextInt(5, 11);
         int iKarakterlancHossza = iVeletlenSzam;
+
     }
 }
