@@ -9,6 +9,15 @@ public class Main {
         Random r = new Random();
         int iVeletlenSzam = r.nextInt(5, 11);
         int iKarakterlancHossza = iVeletlenSzam;
+        int iAlsohatar = 48;
+        int iFelsohatar = 122;
 
+        String sVeletlenKarakterlanc = r.ints(iAlsohatar, iFelsohatar + 1)
+                .filter(i -> (i <= 57 || i >= 65) && (i <= 90 || i >= 97))
+                .limit(iKarakterlancHossza)
+                .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                .toString();
+
+        System.out.println(sVeletlenKarakterlanc);
     }
 }
