@@ -5,15 +5,19 @@ public class Main {
         // Írj egy programot ami karakterláncokat kér be addig amígy *-ot nem kap,
         // majd kiírja a leghoszabb megadott karakterlánc hosszát.
         Scanner sc = new Scanner(System.in);
-        System.out.println("Kerem irjon be karakterlancokat(*-al kilep a program): ");
+        System.out.println("Kerem irjon be egy karakterlancot(*-al kilep a program): ");
         String sKarakterlanc = sc.nextLine();
         int iLeghosszabb = 0;
-        do {
+        String sLeghosszabblanc = sKarakterlanc;
+        while (sKarakterlanc.compareTo("*") != 0) {
             if (iLeghosszabb < sKarakterlanc.length()) {
                 iLeghosszabb = sKarakterlanc.length();
+                sLeghosszabblanc = sKarakterlanc;
             }
-            while (sKarakterlanc.compareTo("*") == 0) ;
+            System.out.println("Adjon egy uj karakterlancot (*-al kilephet): ");
+            sKarakterlanc = sc.nextLine();
         }
-        System.out.println("A leghosszabb karakterlanc " + sKarakterlanc + " hossza = " +sKarakterlanc.length());
+
+        System.out.println("Az On altal megadott leghosszabb karakterlanc, " + sLeghosszabblanc + ", hossza = " + sLeghosszabblanc.length() + " karakter");
     }
 }
