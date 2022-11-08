@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -10,17 +11,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Kerek egy karakterlancot: ");
         String sKarakterlanc = sc.nextLine();
-        int [] ar=new int[256];
-        for(int i=0;i<sKarakterlanc.length();i++)
-        {
-            ar[sKarakterlanc.charAt(i)]=ar[sKarakterlanc.charAt(i)]+1;
+        int[] iBetuk = new int[256];
+        for (int i = 0; i < sKarakterlanc.length(); i++) {
+            iBetuk[sKarakterlanc.charAt(i)] = iBetuk[sKarakterlanc.charAt(i)] + 1;
         }
-        for(int i=0;i<256;i++)
-        {
-            char cKarakter =(char)i;
-            if(ar[i]>1)
-                    System.out.println(cKarakter +" = "+ar[i]);
-                }
+        for (int i = 0; i < 256; i++) {
+            char cKarakter = (char) i;
+            if (iBetuk[i] > 1) System.out.println(cKarakter + " = " + iBetuk[i]);
+        }
 
 
 //        Map<Character, Integer> Karakterterkep = new HashMap<Character, Integer>();
