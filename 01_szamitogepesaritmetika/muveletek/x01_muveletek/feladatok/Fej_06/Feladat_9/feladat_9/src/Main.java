@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
+    // Írj egy programot ami bekér egy karakterláncot,
+    // majd törli minden páros helyen álló karakterét és kiírja a képernyőre.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Kerek egy karakterlancot: ");
