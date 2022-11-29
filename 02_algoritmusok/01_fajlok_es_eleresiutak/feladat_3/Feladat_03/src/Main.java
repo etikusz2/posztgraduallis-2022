@@ -11,13 +11,20 @@ public class Main {
         Path newDirectoryPath = Paths.get("_DataFiles");
         File newDirectory = newDirectoryPath.toFile();
         newDirectory.mkdirs();
-        do {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Adjon meg egy file nevet(*-al kilep): ");
-            Path newFilePath = Paths.get("_DataFiles/");
-            File newFile = newFilePath.toFile();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Mi legyen az ujfajl neve?");
+        File newFile = new File(sc.nextLine());
+        Path newFilePath = Paths.get("_DataFiles/" + newFile);
+        newFile = newFilePath.toFile();
+        if (!newFile.getName().equals("*"))
             newFile.createNewFile();
-
-        } while (filename.compareTo("*") == 0);
+        while (!newFile.getName().equals("*")){
+            System.out.println("Mi legyen az ujfajl neve?");
+            newFile = new File(sc.nextLine());
+            newFilePath = Paths.get("_DataFiles/" + newFile);
+            newFile = newFilePath.toFile();
+            if (!newFile.getName().equals("*"))
+            newFile.createNewFile();
+        }
     }
 }
