@@ -28,10 +28,9 @@ public class Main {
             File[] KonyvtarTartalma = KonyvtarInfo.listFiles();
             if (KonyvtarTartalma != null) {
                 for (File FajlneveKereses : KonyvtarTartalma) {
-                   if (FajlneveKereses.getName().equals(FajlNeve)){
-                       System.out.println(FajlNeve + " eleresi utja: " + FajlneveKereses.getAbsolutePath());
-                }
-                   else FajlKereso(FajlneveKereses, FajlNeve);
+                    if (FajlneveKereses.getName().equals(FajlNeve)) {
+                        System.out.println(FajlNeve + " eleresi utja: " + FajlneveKereses.getAbsolutePath());
+                    } else FajlKereso(FajlneveKereses, FajlNeve);
                 }
             }
         }
