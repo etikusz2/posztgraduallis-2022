@@ -27,8 +27,11 @@ public class Main {
         File ujbinalisfajl = ujbinalisfajlutja.toFile();
         FileOutputStream fos = new FileOutputStream(ujbinalisfajl);
         ObjectOutputStream oos = new ObjectOutputStream(fos);
-        oos.writeInt(sor);
-        oos.writeInt(oszlop);
+        for (int i = 0; i < sor; i++) {
+            for (int j = 0; j < oszlop; j++) {
+                oos.writeDouble(beolvasottSor.charAt(j));
+            }
+        }
         oos.close();
         fos.close();
     }
