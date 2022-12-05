@@ -28,7 +28,7 @@ public class Main {
             if (forgovillateszt.equals("Nyitva"))
                 AtjutasokSzama++;
         }
-        System.out.println("Veletlenszeru probalkozas utan a forgovillan valo atjutasok szama 1000 esemny utan = " + AtjutasokSzama);
+        System.out.println("A forgovillan valo atjutasok szama 1000 veletlenszeru esemny utan = " + AtjutasokSzama);
     }
 
     private static ForgovillaAllapot ForgovillaKovetkezoAllapota(
@@ -39,13 +39,11 @@ public class Main {
             case Nyitva:
                 return switch (aktualisEsemeny) {
                     case Nyomas, Atforgas, Penzbedobas -> ForgovillaAllapot.Zarva;
-                    default -> throw new IllegalArgumentException();
                 };
             case Zarva:
                 return switch (aktualisEsemeny) {
                     case Nyomas, Atforgas -> ForgovillaAllapot.Zarva;
                     case Penzbedobas -> ForgovillaAllapot.Nyitva;
-                    default -> throw new IllegalArgumentException();
                 };
             default:
                 throw new IllegalArgumentException();
