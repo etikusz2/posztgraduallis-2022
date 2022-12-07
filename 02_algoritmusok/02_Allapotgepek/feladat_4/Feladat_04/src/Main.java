@@ -11,7 +11,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Irjon be egy karakterlancot:");
         String karakterlanc = sc.nextLine();
-        String [] karakterlancTombosive = karakterlanc.split((" (?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
+        String[] karakterlancTombosive = karakterlanc.split((" (?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"));
         for (String s : karakterlancTombosive) {
             System.out.println(s);
         }
