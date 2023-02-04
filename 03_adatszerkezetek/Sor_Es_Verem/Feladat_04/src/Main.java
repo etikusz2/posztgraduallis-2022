@@ -1,35 +1,52 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 public class Main {
     // Írjon  egy  programot  ami  bemenetként  egy  zárójelekből  álló  karaktersorozatot  kap  (olvassuk fájlból),
     // majd erről eldönti, hogy helyesen van-e zárójelezve a sorozat vagy sem.
     // Pl.: (({})[()()](())) helyes.
     public static void main(String[] args) {
-        System.out.println("Verem");
-        CharVerem verem = new CharVerem();
-        verem.Betesz('a');
-        verem.Betesz('b');
-        verem.Betesz('c');
-        System.out.println("Kijon: " + verem.Kivesz());
-        System.out.println("Kijon: " + verem.Kivesz());
-        verem.Betesz('d');
-        System.out.println("Kijon: " + verem.Kivesz());
-        System.out.println("Kukucska: " + verem.Kukucska());
-        System.out.println("Kijon: " + verem.Kivesz());
-        System.out.println("Ures: " + verem.Ures());
+        String karakterlanc = "(({})[()()](()))";
+        if (AZarojelekEgyensuybanVannak(karakterlanc))
+            System.out.println("A karaktersorozat helyesen van zarojelezve");
+        else
+            System.out.println("A sorozat hibas");
+    }
 
-        System.out.println();
+    private static boolean AZarojelekEgyensuybanVannak(String karakterlanc) {
+        Deque<Character> stack = new ArrayDeque<Character>();
 
-        System.out.println("Sor");
-        CharSor sor = new CharSor();
-        sor.SorbaAll('a');
-        sor.SorbaAll('b');
-        sor.SorbaAll('c');
-        System.out.println("Kijon: " + sor.Sorelhagy());
-        System.out.println("Kijon: " + sor.Sorelhagy());
-        sor.SorbaAll('d');
-        System.out.println("Kijon: " + sor.Sorelhagy());
-        System.out.println("Kukucska: " + sor.Kukucska());
-        System.out.println("Kijon: " + sor.Sorelhagy());
-        System.out.println("Ures: " + sor.Ures());
+        for (int i = 0; i < karakterlanc.length(); i++) {
+            char VizsgalandoKaeakter = karakterlanc.charAt(i);
+
+            if (VizsgalandoKaeakter == '(' || VizsgalandoKaeakter == '[' || VizsgalandoKaeakter == '{') {
+                stack.push(VizsgalandoKaeakter);
+                continue;
+            }
+            if (stack.isEmpty())
+                return false;
+            char check;
+            switch (VizsgalandoKaeakter) {
+                case ')':
+                    check = stack.pop();
+                    if (check == '{' || check == '[')
+                        return false;
+                    break;
+
+                case '}':
+                    check = stack.pop();
+                    if (check == '(' || check == '[')
+                        return false;
+                    break;
+
+                case ']':
+                    check = stack.pop();
+                    if (check == '(' || check == '{')
+                        return false;
+                    break;
+            }
+        }
+        return (stack.isEmpty());
     }
 }
 
@@ -47,7 +64,7 @@ class CharSor {
     public int Sorelhagy() {
         int elsoErtek = adatokASorban.AdottPozicioLekerdezese(0);
         adatokASorban.ElejerolTorol();
-        return  elsoErtek;
+        return elsoErtek;
     }
 
     public boolean Ures() {
@@ -74,7 +91,7 @@ class CharVerem {
     public int Kivesz() {
         int elsoErtek = adatokAVeremben.AdottPozicioLekerdezese(0);
         adatokAVeremben.ElejerolTorol();
-        return  elsoErtek;
+        return elsoErtek;
     }
 
     public boolean Ures() {
@@ -162,7 +179,7 @@ class LancoltLista {
         adottPozicioElottiSzem.SetKovetkezo(adottPozicioElottiSzem.GetKovetkezo().GetKovetkezo());
 
         // ha a lista vegerol toroltunk
-        if (adottPozicioElottiSzem.GetKovetkezo().GetKovetkezo() == null){
+        if (adottPozicioElottiSzem.GetKovetkezo().GetKovetkezo() == null) {
             this.utolso = adottPozicioElottiSzem;
         }
     }
@@ -175,14 +192,13 @@ class LancoltLista {
         this.elso = ujElem;
 
         // ures listabol 1 elemu lista
-        if (ujElem.GetKovetkezo() == null){
+        if (ujElem.GetKovetkezo() == null) {
             this.utolso = ujElem;
         }
     }
 
     public void VegereBeszur(char adat) {
-        if (this.Hossz() == 0)
-        {
+        if (this.Hossz() == 0) {
             ElejereBeszur(adat);
             return;
         }
@@ -211,7 +227,7 @@ class LancoltLista {
             beszurandoElotti.SetKovetkezo(ujElem);
 
             // ha a lista vegere szurtunk, az utolsot is allitani kell
-            if (ujElem.GetKovetkezo() == null){
+            if (ujElem.GetKovetkezo() == null) {
                 this.utolso = ujElem;
             }
         }
