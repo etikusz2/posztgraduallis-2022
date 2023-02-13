@@ -1,4 +1,4 @@
-public class FractionalNumbers {
+public class FractionalNumbersOperation {
 
     public double addition(double term1, double term2) {
         return term1 + term2;
