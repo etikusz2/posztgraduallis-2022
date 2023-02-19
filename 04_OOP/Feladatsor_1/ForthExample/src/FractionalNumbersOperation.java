@@ -1,18 +1,44 @@
 public class FractionalNumbersOperation {
+    private int numer, denom;
 
-    public double addition(double term1, double term2) {
-        return term1 + term2;
+    public FractionalNumbersOperation(int numer, int denom) {
+       this.numer = numer;
+       this.denom = denom;
     }
 
-    public double subtraction(double mminuend, double subtrahend) {
-        return mminuend - subtrahend;
+    public int getNumerator() {
+        return numer;
     }
 
-    public double multiplication(double multiplier, double multiplicand) {
-        return multiplier * multiplicand;
+    public int getDenominator() {
+        return denom;
     }
 
-    public double division(double dividend, double divisor) {
-        return dividend / divisor;
+    public FractionalNumbersOperation add(FractionalNumbersOperation other) {
+        int n = numer * other.denom + other.numer * denom;
+        int d = denom * other.denom;
+        return new FractionalNumbersOperation(n, d);
+    }
+
+    public FractionalNumbersOperation sub(FractionalNumbersOperation other) {
+        int n = numer * other.denom + other.numer * denom;
+        int d = denom * other.denom;
+        return new FractionalNumbersOperation(n, d);
+    }
+
+    public FractionalNumbersOperation multiply(FractionalNumbersOperation other) {
+        int n = numer * other.numer;
+        int d = denom * other.denom;
+        return new FractionalNumbersOperation(n, d);
+    }
+
+    public FractionalNumbersOperation division(FractionalNumbersOperation other) {
+        int n = numer * other.denom;
+        int d = denom * other.numer;
+        return new FractionalNumbersOperation(n, d);
+    }
+
+    public String toString() {
+        return numer + " / " + denom;
     }
 }

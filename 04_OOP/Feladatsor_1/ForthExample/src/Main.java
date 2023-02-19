@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     // Készítsünk egy osztályt törtek reprezentációjára,
     // és az osztályon belüli metódusok formájában implementáljuk az alapműveleteket (összeadás, kivonás, szorzás, osztás),
@@ -5,24 +7,42 @@ public class Main {
     // Készítsünk egy programot, amelyben szemléltetjük osztályunk működését.
     public static void main(String[] args) {
 
-        double dNumber1 = 6.5;
-        double dNumber2 = 3.25;
+        Scanner reader = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter the numerator for fraction 1: ");
+        int n1 = reader.nextInt();
+        System.out.print("Enter the denominator for fraction 1: ");
+        int d1 = reader.nextInt();
+        System.out.print("Enter the numerator for fraction 2: ");
+        int n2 = reader.nextInt();
+        System.out.print("Enter the denominator for fraction 2: ");
+        int d2 = reader.nextInt();
+        int n = 0, d = 0;
+        FractionalNumbersOperation f1 = new FractionalNumbersOperation(n1, d1);
+        FractionalNumbersOperation f2 = new FractionalNumbersOperation(n2, d2);
+        FractionalNumbersOperation f3 = new FractionalNumbersOperation(n, d);
 
-        FractionalNumbersOperation addTwoNumbers = new FractionalNumbersOperation();
-        double sum = addTwoNumbers.addition(dNumber1, dNumber2);
-        System.out.println("Sum of " + dNumber1 + " and " + dNumber2 + " is equal with " + sum);
+        int option;
+        System.out.println("Select the corresponding number for the desired operation:");
+        System.out.println(" 1.  Addition \n 2.  Subtraction \n 3. Multiply \n 4. Divison ");
+        option = scan.nextInt();
+        if (option == 1) {
+            f3 = f1.add(f2);
 
-        FractionalNumbersOperation subTracted = new FractionalNumbersOperation();
-        double difference = subTracted.subtraction(dNumber1, dNumber2);
-        System.out.println("Difference of " + dNumber1 + " and " + dNumber2 + " is equal with " + difference);
+        }
+        if (option == 2) {
+            f3 = f1.sub(f2);
 
-        FractionalNumbersOperation multiplyTwoNumbers = new FractionalNumbersOperation();
-        double product = addTwoNumbers.multiplication(dNumber1, dNumber2);
-        System.out.println(" Multiply " + dNumber1 + " with " + dNumber2 + " is equal with " + product);
+        }
+        if (option == 3) {
+            f3 = f1.multiply(f2);
 
-        FractionalNumbersOperation dividTwoNumbers = new FractionalNumbersOperation();
-        double ratio = addTwoNumbers.division(dNumber1, dNumber2);
-        System.out.println("Ratio between " + dNumber1 + " and " + dNumber2 + " is equal with " + ratio);
+        }
+        if (option == 4) {
+            f3 = f1.division(f2);
+
+        }
+        System.out.println("The result is " + f3);
     }
 }
 
