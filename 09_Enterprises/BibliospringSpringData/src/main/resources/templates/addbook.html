@@ -1,0 +1,22 @@
+<!-- addbook.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Book</title>
+</head>
+<body>
+<h2>Add New Book</h2>
+<form action="/addbook" method="post">
+    <label for="title">Title:</label>
+    <input id="title" name="title" required type="text"><br><br>
+    <label for="authorName">Author:</label>
+    <input id="authorName" name="authorName" required type="text"><br><br>
+    <label for="position">Position:</label>
+    <input id="position" name="position" required type="text"><br><br>
+    <label for="isbn">ISBN:</label>
+    <input id="isbn" name="isbn" required type="text"><br><br>
+    <input type="submit" value="Add Book">
+</form>
+<a href="/books">Back to Books List</a>
+</body>
+</html>
