@@ -56,7 +56,7 @@ class WebControllerTest {
     }
 
     @Test
-    void givenBooks_whenListingBooks_thenShouldAddBooksToModel() {
+    void givenBookswhenListingBooksthenShouldAddBooksToModel() {
         List<Book> books = List.of(new Book());
         when(bookService.getAllBooksSortedByAuthor()).thenReturn(books);
 
@@ -76,7 +76,7 @@ class WebControllerTest {
 
 
     @Test
-    void showEditBookForm_BookExists_ShouldAddBookToModel() {
+    void showEditBookFormBookExistsShouldAddBookToModel() {
         Long bookId = 1L;
         Book book = new Book();
         book.setId(bookId);
@@ -93,7 +93,7 @@ class WebControllerTest {
     }
 
     @Test
-    void showRegisterForm_ShouldAddNewUserToModel() {
+    void showRegisterFormShouldAddNewUserToModel() {
         webController.showRegisterForm(model);
 
         verify(model).addAttribute(eq("newUser"), any(UserInDTO.class));
@@ -103,7 +103,7 @@ class WebControllerTest {
 
 
     @Test
-    void registerUser_WithErrors_ShouldReturnRegisterView() {
+    void registerUserWithErrorsShouldReturnRegisterView() {
         when(bindingResult.hasErrors()).thenReturn(true);
 
         String viewName = webController.registerUser(new UserInDTO(), bindingResult, model);
@@ -113,7 +113,7 @@ class WebControllerTest {
     }
 
     @Test
-    void showAddBookForm_ShouldAddBookToModel() {
+    void showAddBookFormShouldAddBookToModel() {
         String viewName = webController.showAddBookForm(model);
 
         assertThat(viewName).isEqualTo("addbook");
@@ -121,7 +121,7 @@ class WebControllerTest {
     }
 
     @Test
-    void addBook_WithErrors_ShouldReturnAddBookView() {
+    void addBookWithErrorsShouldReturnAddBookView() {
         when(bindingResult.hasErrors()).thenReturn(true);
 
         String viewName = webController.addBook(new BookInDTO(), bindingResult);
@@ -131,7 +131,7 @@ class WebControllerTest {
     }
 
     @Test
-    void showEditBookForm_BookDoesNotExist_ShouldRedirectToError() {
+    void showEditBookFormBookDoesNotExistShouldRedirectToError() {
         Long bookId = 1L;
         when(bookService.getById(bookId)).thenReturn(null);
 
@@ -142,7 +142,7 @@ class WebControllerTest {
     }
 
     @Test
-    void editBook_WithErrors_ShouldReturnEditBookView() {
+    void editBookWithErrorsShouldReturnEditBookView() {
         when(bindingResult.hasErrors()).thenReturn(true);
 
         String viewName = webController.editBook(1L, new BookInDTO(), bindingResult);
@@ -152,7 +152,7 @@ class WebControllerTest {
     }
 
     @Test
-    void deleteBook_ShouldRedirectToBooks() {
+    void deleteBookShouldRedirectToBooks() {
         Long bookId = 1L;
 
         String viewName = webController.deleteBook(bookId);
@@ -162,7 +162,7 @@ class WebControllerTest {
     }
 
     @Test
-    void logout_ShouldInvalidateSessionAndRedirect() {
+    void logoutShouldInvalidateSessionAndRedirect() {
         String viewName = webController.logout(session);
 
         assertThat(viewName).isEqualTo("redirect:/login");
