@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.4">
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/Main.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/model/AbtractModel.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/model/Authors.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/model/BaseEntity.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/model/Books.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/model/User.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/AuthorsDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/BooksDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/DAOFactory.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/RepositoryException.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/UserDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/jdbc/JdbcAuthorsDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/jdbc/JdbcBooksDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/jdbc/JdbcDAOFactory.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/jdbc/JdbcUserDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/memory/MemoryDAOFactory.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/repository/memory/MemoryUserDAO.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/AuthorsService.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/BooksService.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/LoginService.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/ServiceException.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/ServiceFactory.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/impl/AuthorsServiceImpl.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/impl/BooksServiceImpl.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/service/impl/LoginServiceImpl.java">
+</file>
+<file name="/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java/edu/bbte/bibliospring/backend/utile/PropertyProvider.java">
+</file>
+</checkstyle>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.0" sequence="0" timestamp="1708264416472" analysisTimestamp="1708264416510" release="1.0-SNAPSHOT">
+  <Project projectName="Bibliospring_Gradle (spotbugsMain)">
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/UserDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/memory/MemoryUserDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/memory/MemoryDAOFactory.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/AuthorsDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/RepositoryException.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/jdbc/JdbcAuthorsDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/jdbc/JdbcBooksDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/jdbc/JdbcDAOFactory.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/jdbc/JdbcUserDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/BooksDAO.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/repository/DAOFactory.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/model/BaseEntity.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/model/User.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/model/Authors.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/model/Books.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/model/AbtractModel.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/impl/AuthorsServiceImpl.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/impl/BooksServiceImpl.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/impl/LoginServiceImpl.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/ServiceException.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/ServiceFactory.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/LoginService.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/BooksService.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/service/AuthorsService.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/backend/utile/PropertyProvider.class</Jar>
+    <Jar>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/build/classes/java/main/edu/bbte/bibliospring/Main.class</Jar>
+    <AuxClasspathEntry>/Users/erzsebetcsillabirtalan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.9/7cf2726fdcfbc8610f9a71fb3ed639871f315340/slf4j-api-2.0.9.jar</AuxClasspathEntry>
+    <SrcDir>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/resources</SrcDir>
+    <SrcDir>/Users/erzsebetcsillabirtalan/Desktop/posztgradualis2022/posztgraduallis-2022/09_Enterprises/Bibliospring_Gradle/src/main/java</SrcDir>
+  </Project>
+  <BugInstance type="DM_EXIT" priority="3" rank="19" abbrev="Dm" category="BAD_PRACTICE" instanceHash="305632cf8cd583c7c193d60c6608feff" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="382">
+    <ShortMessage>Method invokes System.exit(...)</ShortMessage>
+    <LongMessage>edu.bbte.bibliospring.Main.lambda$initialize$8(ActionEvent) invokes System.exit(...), which shuts down the entire virtual machine</LongMessage>
+    <Class classname="edu.bbte.bibliospring.Main" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.Main" start="25" end="374" sourcefile="Main.java" sourcepath="edu/bbte/bibliospring/Main.java" relSourcepath="java/edu/bbte/bibliospring/Main.java">
+        <Message>At Main.java:[lines 25-374]</Message>
+      </SourceLine>
+      <Message>In class edu.bbte.bibliospring.Main</Message>
+    </Class>
+    <Method classname="edu.bbte.bibliospring.Main" name="lambda$initialize$8" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="true" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.Main" start="109" end="109" startBytecode="0" endBytecode="46" sourcefile="Main.java" sourcepath="edu/bbte/bibliospring/Main.java" relSourcepath="java/edu/bbte/bibliospring/Main.java"/>
+      <Message>In method edu.bbte.bibliospring.Main.lambda$initialize$8(ActionEvent)</Message>
+    </Method>
+    <SourceLine classname="edu.bbte.bibliospring.Main" primary="true" start="109" end="109" startBytecode="1" endBytecode="1" sourcefile="Main.java" sourcepath="edu/bbte/bibliospring/Main.java" relSourcepath="java/edu/bbte/bibliospring/Main.java">
+      <Message>At Main.java:[line 109]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR" priority="3" rank="20" abbrev="MC" category="MALICIOUS_CODE" instanceHash="21bbb64163640c3f578c7cec8df98206" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>An overridable method is called from a constructor</ShortMessage>
+    <LongMessage>Overridable method equals is called from constructor new edu.bbte.bibliospring.Main().</LongMessage>
+    <Class classname="edu.bbte.bibliospring.Main" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.Main" start="25" end="374" sourcefile="Main.java" sourcepath="edu/bbte/bibliospring/Main.java" relSourcepath="java/edu/bbte/bibliospring/Main.java">
+        <Message>At Main.java:[lines 25-374]</Message>
+      </SourceLine>
+      <Message>In class edu.bbte.bibliospring.Main</Message>
+    </Class>
+    <Method classname="edu.bbte.bibliospring.Main" name="&lt;init&gt;" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.Main" start="35" end="38" startBytecode="0" endBytecode="134" sourcefile="Main.java" sourcepath="edu/bbte/bibliospring/Main.java" relSourcepath="java/edu/bbte/bibliospring/Main.java"/>
+      <Message>In method new edu.bbte.bibliospring.Main()</Message>
+    </Method>
+    <String value="equals">
+      <Message>Value equals</Message>
+    </String>
+    <SourceLine classname="edu.bbte.bibliospring.Main" primary="true" start="36" end="36" startBytecode="45" endBytecode="45" sourcefile="Main.java" sourcepath="edu/bbte/bibliospring/Main.java" relSourcepath="java/edu/bbte/bibliospring/Main.java">
+      <Message>At Main.java:[line 36]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="72726e5b6186d7a0e462fa65bfe8f95c" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager at new edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager() will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager" start="15" end="61" sourcefile="ConnectionManager.java" sourcepath="edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java">
+        <Message>At ConnectionManager.java:[lines 15-61]</Message>
+      </SourceLine>
+      <Message>In class edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager</Message>
+    </Class>
+    <Method classname="edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager" name="&lt;init&gt;" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager" start="19" end="42" startBytecode="0" endBytecode="396" sourcefile="ConnectionManager.java" sourcepath="edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java"/>
+      <Message>In method new edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager()</Message>
+    </Method>
+    <SourceLine classname="edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager" primary="true" start="36" end="36" startBytecode="113" endBytecode="113" sourcefile="ConnectionManager.java" sourcepath="edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java">
+      <Message>At ConnectionManager.java:[line 36]</Message>
+    </SourceLine>
+    <SourceLine classname="edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager" start="36" end="36" startBytecode="113" endBytecode="113" sourcefile="ConnectionManager.java" sourcepath="edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java">
+      <Message>At ConnectionManager.java:[line 36]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION" priority="3" rank="17" abbrev="AT" category="MT_CORRECTNESS" instanceHash="e5129f9b4ff8ae973ea23475a2e8d003" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Sequence of calls to concurrent abstraction may not be atomic</ShortMessage>
+    <LongMessage>Sequence of calls to java.util.concurrent.ConcurrentHashMap may not be atomic in edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO.update(Authors)</LongMessage>
+    <Class classname="edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO" start="16" end="55" sourcefile="MemoryAuthorsDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java">
+        <Message>At MemoryAuthorsDAO.java:[lines 16-55]</Message>
+      </SourceLine>
+      <Message>In class edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO</Message>
+    </Class>
+    <Method classname="edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO" name="update" signature="(Ledu/bbte/bibliospring/backend/model/Authors;)Ledu/bbte/bibliospring/backend/model/Authors;" isStatic="false" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO" start="35" end="40" startBytecode="0" endBytecode="122" sourcefile="MemoryAuthorsDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java"/>
+      <Message>In method edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO.update(Authors)</Message>
+    </Method>
+    <Type descriptor="Ljava/util/concurrent/ConcurrentHashMap;">
+      <SourceLine classname="java.util.concurrent.ConcurrentHashMap" start="264" end="6381" sourcefile="ConcurrentHashMap.java" sourcepath="java/util/concurrent/ConcurrentHashMap.java">
+        <Message>At ConcurrentHashMap.java:[lines 264-6381]</Message>
+      </SourceLine>
+      <Message>Type java.util.concurrent.ConcurrentHashMap</Message>
+    </Type>
+    <Method classname="java.util.concurrent.ConcurrentHashMap" name="put" signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.concurrent.ConcurrentHashMap" start="1006" end="1006" startBytecode="0" endBytecode="107" sourcefile="ConcurrentHashMap.java" sourcepath="java/util/concurrent/ConcurrentHashMap.java"/>
+      <Message>Called method java.util.concurrent.ConcurrentHashMap.put(Object, Object)</Message>
+    </Method>
+    <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO" primary="true" start="36" end="36" startBytecode="23" endBytecode="23" sourcefile="MemoryAuthorsDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java">
+      <Message>At MemoryAuthorsDAO.java:[line 36]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION" priority="3" rank="17" abbrev="AT" category="MT_CORRECTNESS" instanceHash="f1a9ca26f93f858dad00589ed88b4443" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Sequence of calls to concurrent abstraction may not be atomic</ShortMessage>
+    <LongMessage>Sequence of calls to java.util.concurrent.ConcurrentHashMap may not be atomic in edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO.update(Books)</LongMessage>
+    <Class classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" start="17" end="81" sourcefile="MemoryBooksDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java">
+        <Message>At MemoryBooksDAO.java:[lines 17-81]</Message>
+      </SourceLine>
+      <Message>In class edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO</Message>
+    </Class>
+    <Method classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" name="update" signature="(Ledu/bbte/bibliospring/backend/model/Books;)Ledu/bbte/bibliospring/backend/model/Books;" isStatic="false" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" start="55" end="60" startBytecode="0" endBytecode="122" sourcefile="MemoryBooksDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java"/>
+      <Message>In method edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO.update(Books)</Message>
+    </Method>
+    <Type descriptor="Ljava/util/concurrent/ConcurrentHashMap;">
+      <SourceLine classname="java.util.concurrent.ConcurrentHashMap" start="264" end="6381" sourcefile="ConcurrentHashMap.java" sourcepath="java/util/concurrent/ConcurrentHashMap.java">
+        <Message>At ConcurrentHashMap.java:[lines 264-6381]</Message>
+      </SourceLine>
+      <Message>Type java.util.concurrent.ConcurrentHashMap</Message>
+    </Type>
+    <Method classname="java.util.concurrent.ConcurrentHashMap" name="put" signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.concurrent.ConcurrentHashMap" start="1006" end="1006" startBytecode="0" endBytecode="107" sourcefile="ConcurrentHashMap.java" sourcepath="java/util/concurrent/ConcurrentHashMap.java"/>
+      <Message>Called method java.util.concurrent.ConcurrentHashMap.put(Object, Object)</Message>
+    </Method>
+    <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" primary="true" start="56" end="56" startBytecode="23" endBytecode="23" sourcefile="MemoryBooksDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java">
+      <Message>At MemoryBooksDAO.java:[line 56]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="DM_CONVERT_CASE" priority="3" rank="20" abbrev="Dm" category="I18N" instanceHash="8fd5d68e62c0bd2848653fb94630e19b" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Consider using Locale parameterized version of invoked method</ShortMessage>
+    <LongMessage>Use of non-localized String.toUpperCase() or String.toLowerCase() in edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO.searchByTitleOrAuthor(String)</LongMessage>
+    <Class classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" start="17" end="81" sourcefile="MemoryBooksDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java">
+        <Message>At MemoryBooksDAO.java:[lines 17-81]</Message>
+      </SourceLine>
+      <Message>In class edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO</Message>
+    </Class>
+    <Method classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" name="searchByTitleOrAuthor" signature="(Ljava/lang/String;)Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" start="70" end="81" startBytecode="0" endBytecode="275" sourcefile="MemoryBooksDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java"/>
+      <Message>In method edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO.searchByTitleOrAuthor(String)</Message>
+    </Method>
+    <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" primary="true" start="72" end="72" startBytecode="46" endBytecode="46" sourcefile="MemoryBooksDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java">
+      <Message>At MemoryBooksDAO.java:[line 72]</Message>
+    </SourceLine>
+    <SourceLine classname="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" start="76" end="76" startBytecode="88" endBytecode="88" sourcefile="MemoryBooksDAO.java" sourcepath="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" relSourcepath="java/edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" role="SOURCE_LINE_ANOTHER_INSTANCE">
+      <Message>Another occurrence at MemoryBooksDAO.java:[line 76]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugCategory category="MT_CORRECTNESS">
+    <Description>Multithreaded correctness</Description>
+  </BugCategory>
+  <BugCategory category="I18N">
+    <Description>Internationalization</Description>
+  </BugCategory>
+  <BugPattern type="MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR" abbrev="MC" category="MALICIOUS_CODE">
+    <ShortDescription>An overridable method is called from a constructor</ShortDescription>
+    <Details><![CDATA[
+      <p>
+      Calling an overridable method during in a constructor may result in the use of uninitialized data. It may also
+      leak the this reference of the partially constructed object. Only static, final or private methods should be
+      invoked from a constructor.</p>
+      <p>
+      See SEI CERT rule <a href="https://wiki.sei.cmu.edu/confluence/display/java/MET05-J.+Ensure+that+constructors+do+not+call+overridable+methods">MET05-J. Ensure that constructors do not call overridable methods</a>.
+      </p>
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION" abbrev="AT" category="MT_CORRECTNESS">
+    <ShortDescription>Sequence of calls to concurrent abstraction may not be atomic</ShortDescription>
+    <Details><![CDATA[
+          
+        <p>This code contains a sequence of calls to a concurrent  abstraction
+            (such as a concurrent hash map).
+            These calls will not be executed atomically.
+          
+      ]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_EXIT" abbrev="Dm" category="BAD_PRACTICE" cweid="382">
+    <ShortDescription>Method invokes System.exit(...)</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Invoking System.exit shuts down the entire Java virtual machine. This
+   should only been done when it is appropriate. Such calls make it
+   hard or impossible for your code to be invoked by other code.
+   Consider throwing a RuntimeException instead.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="CT_CONSTRUCTOR_THROW" abbrev="CT" category="BAD_PRACTICE">
+    <ShortDescription>Be wary of letting constructors throw exceptions.</ShortDescription>
+    <Details><![CDATA[
+      
+            <p>Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks</p>
+
+            <p>A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared as final, or by a clever use of a private constructor.</p>
+
+            <p>See <a href="https://wiki.sei.cmu.edu/confluence/display/java/OBJ11-J.+Be+wary+of+letting+constructors+throw+exceptions"><code>SEI CERT Rule OBJ-11</code></a>
+            for more information.
+            </p>
+            
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="DM_CONVERT_CASE" abbrev="Dm" category="I18N">
+    <ShortDescription>Consider using Locale parameterized version of invoked method</ShortDescription>
+    <Details><![CDATA[
+
+  <p> A String is being converted to upper or lowercase, using the platform's default encoding. This may
+      result in improper conversions when used with international characters. Use the </p>
+      <ul>
+    <li>String.toUpperCase( Locale l )</li>
+    <li>String.toLowerCase( Locale l )</li>
+    </ul>
+      <p>versions instead.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="CT">
+    <Description>Constructor throws</Description>
+  </BugCode>
+  <BugCode abbrev="AT">
+    <Description>Possible atomicity violation</Description>
+  </BugCode>
+  <BugCode abbrev="MC">
+    <Description>Dangerous call to overridable method</Description>
+  </BugCode>
+  <BugCode abbrev="Dm">
+    <Description>Dubious method used</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 18 Feb 2024 15:53:36 +0200" total_classes="29" referenced_classes="117" total_bugs="6" total_size="1110" num_packages="8" java_version="17.0.4.1" vm_version="17.0.4.1+9-LTS" cpu_seconds="14.98" clock_seconds="7.11" peak_mbytes="170.34" alloc_mbytes="2048.00" gc_seconds="0.07" priority_3="5" priority_2="1">
+    <FileStats path="edu/bbte/bibliospring/Main.java" bugCount="2" size="270" bugHash="9b1acea49b11fcda284c52ad6f941ab3"/>
+    <FileStats path="edu/bbte/bibliospring/backend/model/AbtractModel.java" bugCount="0" size="22"/>
+    <FileStats path="edu/bbte/bibliospring/backend/model/Authors.java" bugCount="0" size="10"/>
+    <FileStats path="edu/bbte/bibliospring/backend/model/BaseEntity.java" bugCount="0" size="11"/>
+    <FileStats path="edu/bbte/bibliospring/backend/model/Books.java" bugCount="0" size="30"/>
+    <FileStats path="edu/bbte/bibliospring/backend/model/User.java" bugCount="0" size="23"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/AuthorsDAO.java" bugCount="0" size="6"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/BooksDAO.java" bugCount="0" size="8"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/DAOFactory.java" bugCount="0" size="8"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/RepositoryException.java" bugCount="0" size="7"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/UserDAO.java" bugCount="0" size="5"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/jdbc/ConnectionManager.java" bugCount="1" size="37" bugHash="ac554ed2a4d57de7bffe6ef7bb472d58"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/jdbc/JdbcAuthorsDAO.java" bugCount="0" size="121"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/jdbc/JdbcBooksDAO.java" bugCount="0" size="206"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/jdbc/JdbcDAOFactory.java" bugCount="0" size="15"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/jdbc/JdbcUserDAO.java" bugCount="0" size="87"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/memory/MemoryAuthorsDAO.java" bugCount="1" size="28" bugHash="9ffa30154adcedc31acd637eeabb9a30"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/memory/MemoryBooksDAO.java" bugCount="2" size="42" bugHash="c938599f562d6bb8f14b539bd194f870"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/memory/MemoryDAOFactory.java" bugCount="0" size="9"/>
+    <FileStats path="edu/bbte/bibliospring/backend/repository/memory/MemoryUserDAO.java" bugCount="0" size="21"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/AuthorsService.java" bugCount="0" size="5"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/BooksService.java" bugCount="0" size="5"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/LoginService.java" bugCount="0" size="3"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/ServiceException.java" bugCount="0" size="7"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/ServiceFactory.java" bugCount="0" size="9"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/impl/AuthorsServiceImpl.java" bugCount="0" size="31"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/impl/BooksServiceImpl.java" bugCount="0" size="32"/>
+    <FileStats path="edu/bbte/bibliospring/backend/service/impl/LoginServiceImpl.java" bugCount="0" size="36"/>
+    <FileStats path="edu/bbte/bibliospring/backend/utile/PropertyProvider.java" bugCount="0" size="16"/>
+    <PackageStats package="edu.bbte.bibliospring" total_bugs="2" total_types="1" total_size="270" priority_3="2">
+      <ClassStats class="edu.bbte.bibliospring.Main" sourceFile="Main.java" interface="false" size="270" bugs="2" priority_3="2"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.bibliospring.backend.model" total_bugs="0" total_types="5" total_size="96">
+      <ClassStats class="edu.bbte.bibliospring.backend.model.AbtractModel" sourceFile="AbtractModel.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.model.Authors" sourceFile="Authors.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.model.BaseEntity" sourceFile="BaseEntity.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.model.Books" sourceFile="Books.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.model.User" sourceFile="User.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.bibliospring.backend.repository" total_bugs="0" total_types="5" total_size="34">
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.AuthorsDAO" sourceFile="AuthorsDAO.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.BooksDAO" sourceFile="BooksDAO.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.DAOFactory" sourceFile="DAOFactory.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.RepositoryException" sourceFile="RepositoryException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.UserDAO" sourceFile="UserDAO.java" interface="true" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.bibliospring.backend.repository.jdbc" total_bugs="1" total_types="5" total_size="466" priority_2="1">
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.jdbc.ConnectionManager" sourceFile="ConnectionManager.java" interface="false" size="37" bugs="1" priority_2="1"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.jdbc.JdbcAuthorsDAO" sourceFile="JdbcAuthorsDAO.java" interface="false" size="121" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.jdbc.JdbcBooksDAO" sourceFile="JdbcBooksDAO.java" interface="false" size="206" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.jdbc.JdbcDAOFactory" sourceFile="JdbcDAOFactory.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.jdbc.JdbcUserDAO" sourceFile="JdbcUserDAO.java" interface="false" size="87" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.bibliospring.backend.repository.memory" total_bugs="3" total_types="4" total_size="100" priority_3="3">
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.memory.MemoryAuthorsDAO" sourceFile="MemoryAuthorsDAO.java" interface="false" size="28" bugs="1" priority_3="1"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.memory.MemoryBooksDAO" sourceFile="MemoryBooksDAO.java" interface="false" size="42" bugs="2" priority_3="2"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.memory.MemoryDAOFactory" sourceFile="MemoryDAOFactory.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.repository.memory.MemoryUserDAO" sourceFile="MemoryUserDAO.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.bibliospring.backend.service" total_bugs="0" total_types="5" total_size="29">
+      <ClassStats class="edu.bbte.bibliospring.backend.service.AuthorsService" sourceFile="AuthorsService.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.service.BooksService" sourceFile="BooksService.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.service.LoginService" sourceFile="LoginService.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.service.ServiceException" sourceFile="ServiceException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.service.ServiceFactory" sourceFile="ServiceFactory.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.bibliospring.backend.service.impl" total_bugs="0" total_types="3" total_size="99">
+      <ClassStats class="edu.bbte.bibliospring.backend.service.impl.AuthorsServiceImpl" sourceFile="AuthorsServiceImpl.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.service.impl.BooksServiceImpl" sourceFile="BooksServiceImpl.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="edu.bbte.bibliospring.backend.service.impl.LoginServiceImpl" sourceFile="LoginServiceImpl.java" interface="false" size="36" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.bibliospring.backend.utile" total_bugs="0" total_types="1" total_size="16">
+      <ClassStats class="edu.bbte.bibliospring.backend.utile.PropertyProvider" sourceFile="PropertyProvider.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="908" invocations="1238" avgMicrosecondsPerInvocation="734" maxMicrosecondsPerInvocation="46103" standardDeviationMicrosecondsPerInvocation="2348"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="422" invocations="117" avgMicrosecondsPerInvocation="3612" maxMicrosecondsPerInvocation="60069" standardDeviationMicrosecondsPerInvocation="7936"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="357" invocations="167" avgMicrosecondsPerInvocation="2141" maxMicrosecondsPerInvocation="42022" standardDeviationMicrosecondsPerInvocation="4541"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="357" invocations="117" avgMicrosecondsPerInvocation="3053" maxMicrosecondsPerInvocation="64773" standardDeviationMicrosecondsPerInvocation="7083"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="343" invocations="517" avgMicrosecondsPerInvocation="663" maxMicrosecondsPerInvocation="26526" standardDeviationMicrosecondsPerInvocation="1811"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="285" invocations="147" avgMicrosecondsPerInvocation="1943" maxMicrosecondsPerInvocation="15152" standardDeviationMicrosecondsPerInvocation="2821"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="245" invocations="169" avgMicrosecondsPerInvocation="1455" maxMicrosecondsPerInvocation="9963" standardDeviationMicrosecondsPerInvocation="2047"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="233" invocations="1243" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="5799" standardDeviationMicrosecondsPerInvocation="346"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="188" invocations="147" avgMicrosecondsPerInvocation="1285" maxMicrosecondsPerInvocation="21901" standardDeviationMicrosecondsPerInvocation="2838"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="186" invocations="147" avgMicrosecondsPerInvocation="1265" maxMicrosecondsPerInvocation="11323" standardDeviationMicrosecondsPerInvocation="1950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="176" invocations="147" avgMicrosecondsPerInvocation="1197" maxMicrosecondsPerInvocation="10944" standardDeviationMicrosecondsPerInvocation="1724"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="154" invocations="176" avgMicrosecondsPerInvocation="875" maxMicrosecondsPerInvocation="11491" standardDeviationMicrosecondsPerInvocation="1919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="145" invocations="128" avgMicrosecondsPerInvocation="1137" maxMicrosecondsPerInvocation="9784" standardDeviationMicrosecondsPerInvocation="2001"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="130" invocations="1191" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="8841" standardDeviationMicrosecondsPerInvocation="485"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="99" invocations="117" avgMicrosecondsPerInvocation="848" maxMicrosecondsPerInvocation="12467" standardDeviationMicrosecondsPerInvocation="1890"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="93" invocations="117" avgMicrosecondsPerInvocation="800" maxMicrosecondsPerInvocation="14197" standardDeviationMicrosecondsPerInvocation="2301"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="93" invocations="29" avgMicrosecondsPerInvocation="3224" maxMicrosecondsPerInvocation="18687" standardDeviationMicrosecondsPerInvocation="5325"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="74" invocations="176" avgMicrosecondsPerInvocation="425" maxMicrosecondsPerInvocation="20173" standardDeviationMicrosecondsPerInvocation="1600"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="71" invocations="117" avgMicrosecondsPerInvocation="614" maxMicrosecondsPerInvocation="13921" standardDeviationMicrosecondsPerInvocation="2051"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="71" invocations="117" avgMicrosecondsPerInvocation="613" maxMicrosecondsPerInvocation="33369" standardDeviationMicrosecondsPerInvocation="3308"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="69" invocations="117" avgMicrosecondsPerInvocation="591" maxMicrosecondsPerInvocation="8287" standardDeviationMicrosecondsPerInvocation="1431"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="68" invocations="29" avgMicrosecondsPerInvocation="2377" maxMicrosecondsPerInvocation="33898" standardDeviationMicrosecondsPerInvocation="7084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="66" invocations="117" avgMicrosecondsPerInvocation="567" maxMicrosecondsPerInvocation="14937" standardDeviationMicrosecondsPerInvocation="1546"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ConstructorThrow" totalMilliseconds="63" invocations="29" avgMicrosecondsPerInvocation="2205" maxMicrosecondsPerInvocation="22201" standardDeviationMicrosecondsPerInvocation="4538"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

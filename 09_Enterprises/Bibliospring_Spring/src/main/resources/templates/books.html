@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Books</title>
+</head>
+<body>
+<h1>Books</h1>
+
+<p th:if="${username != null}" th:text="'Welcome, ' + ${username} + '!'">
+  Welcome, guest!
+</p>
+
+<table border="1">
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Position</th>
+    <th>ISBN</th>
+    <th>Action</th>
+  </tr>
+  <tr th:each="book : ${books}">
+    <td th:text="${book.title}"></td>
+    <td th:text="${book.author.author}"></td>
+    <td th:text="${book.position}"></td>
+    <td th:text="${book.isbn}"></td>
+    <td>
+      <a th:href="@{/books/edit/{id}(id=${book.id})}">Edit</a> |
+      <a th:href="@{/books/delete/{id}(id=${book.id})}">Delete</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<p th:if="${username != null}"><a th:href="@{/logout}">Logout</a></p>
+
+<a th:href="@{/books/addBook}">Add Book</a> |
+<a th:href="@{/books/search}">Search</a> |
+<a th:href="@{/books}">Refresh</a>
+
+</body>
+</html>
